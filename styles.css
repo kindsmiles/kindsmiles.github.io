@@ -1,0 +1,74 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section#about {
+    background: #fff;
+}
+
+section#projects {
+    background: #e9ecef;
+}
+
+section#get-involved {
+    background: #fff;
+}
+
+section#contact {
+    background: #e9ecef;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;
+}
+
+form label {
+    grid-column: 1 / 2;
+    text-align: right;
+}
+
+form input, form textarea, form button {
+    grid-column: 2 / 3;
+}
+
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
